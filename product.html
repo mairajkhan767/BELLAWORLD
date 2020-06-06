@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>IZMIR Beauty</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link type="text/css" rel="stylesheet" href="css/newstyle.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/slick.css" />
+  <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-light upperNav">
+      <button class="navbar-toggle togglebutton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav w-100">
+          <div class="col-lg-7">
+            <a class="nav-item nav-link text-center" href="#">Call us 24/7: (+00) 123-456-789</a>
+          </div>
+          <a class="nav-item nav-link text-center" href="contact.html">Contact Us</a>
+          <a class="nav-item nav-link text-center" href="#">My Wishlist</a>
+          <a class="nav-item nav-link text-center" href="myCart.html">My Cart</a>
+          <a class="nav-item nav-link text-center" href="signup.html">Signup</a>
+          <a class="nav-item nav-link text-center" href="loginpage.html">Log In</a>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3  mb-2" style="margin-top:-10px;">
+          <div class="d-block text-center">
+            <img src="img/logo.png" alt="logo" class="logoHeader">
+          </div>
+        </div>
+        <div class="col-lg-3 mt-2 mb-2">
+          <div class="input-group d-block text-center">
+            <div class="d-inline-flex">
+              <input type="text" class="searchInput form-control form-control-lg" placeholder="Search your product...">
+              <button type="button" class="searchBtn"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 mt-2 mb-2">
+          <div class="d-block text-center">
+            <img src="img/cartItem.png" alt="cart">
+            <a class="font-weight-bold ml-2">0 Item</a>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-2 mb-2">
+          <div class="d-block text-center">
+            <img src="img/downloadApp.png" alt="app" class="downloadHeader">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mainNav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="MainNavbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-item mainNav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">SKIN AND BODY</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">HAIR</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">FUNCTIONAL COSMETICS</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">FOOD</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">COLOR COSMETICS</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">AMPOULES</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">SOAP</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">ORAL</a>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <section>
+
+    <!-- CONTENT -->
+    <div class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row mt-5">
+          <!-- Product main img -->
+          <div class="col-md-5 col-md-push-2">
+            <div id="product-main-img">
+              <div class="product-preview">
+                <img src="img/item1.png" alt="">
+              </div>
+
+              <div class="product-preview">
+                <img src="img/item2.png" alt="">
+              </div>
+
+              <div class="product-preview">
+                <img src="img/item3.png" alt="">
+              </div>
+
+              <div class="product-preview">
+                <img src="img/item4.png" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- /Product main img -->
+
+          <!-- Product thumb imgs -->
+          <div class="col-md-2  col-md-pull-5">
+            <div id="product-imgs">
+              <div class="product-preview">
+                <img src="img/item1.png" alt="">
+              </div>
+
+              <div class="product-preview">
+                <img src="img/item2.png" alt="">
+              </div>
+
+              <div class="product-preview">
+                <img src="img/item3.png" alt="">
+              </div>
+
+              <div class="product-preview">
+                <img src="img/item4.png" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- /Product thumb imgs -->
+
+          <!-- Product details -->
+          <div class="col-md-5">
+            <div class="product-details">
+              <h2 class="product-name"> PRINTED HOODIE</h2>
+              <p>Olive Round Neck Premium Tee TYPE Round Neck MATERIAL 95% Cotton & 5% Polyester BLEND Summer COLOUR Olive SLEEVE Half Sleeve</p>
+
+              <!-- <div class="product-options">
+              <label>
+                Size
+                <select class="input-select">
+                  <option value="0">X</option>
+                </select>
+              </label>
+              <label>
+                Color
+                <select class="input-select">
+                  <option value="0">Red</option>
+                </select>
+              </label>
+            </div> -->
+
+              <div class="add-to-cart">
+                <div class="qty-label">
+                  Qty
+                  <div class="input-number">
+                    <input type="number" value="1">
+                    <span class="qty-up">+</span>
+                    <span class="qty-down">-</span>
+                  </div>
+                </div>
+                <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+              </div>
+
+              <ul class="product-btns">
+                <li><a href="#"><i class="fa fa-heart-o"></i> add to wishlist</a></li>
+                <li><a href="#"><i class="fa fa-exchange"></i> add to compare</a></li>
+              </ul>
+
+              <ul class="product-links">
+                <li>Category:</li>
+                <li><a href="#">Headphones</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+
+              <ul class="product-links">
+                <li>Share:</li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- /Product details -->
+
+          <!-- Product tab -->
+          <div class="col-md-12 " >
+            <div id="product-tab">
+              <!-- product tab nav -->
+              <ul class="tab-nav">
+<!--
+                <li class="tablick active"><a data-toggle="tab" href="#tab1">Description</a></li>
+                <li class="tablink"><a data-target="#tab3" data-toggle="tab" href="#tab2">Details</a></li>
+                <li class="tablink"><a data-toggle="tab" href="#tab3">Reviews (3)</a></li>
+
+-->
+
+				  <li><a href="javascript:void(0)" class="tablinks" onclick="opentab(event, 'discription')">Description</a></li>
+  					<li><a href="javascript:void(0)" class="tablinks" onclick="opentab(event, 'detail')">Detail</a></li>
+					<li><a href="javascript:void(0)" class="tablinks" onclick="opentab(event, 'review')">Reviews</a></li>
+					
+              </ul>
+              <!-- /product tab nav -->
+
+              <!-- product tab content -->
+                <div class="tabcontent container tab-content " id="discription">
+                <div class="">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>55% cotton/45% polyester for soft comfort and super durability. Featuring a ribbed neckline, ribbed cuffs, and relaxed sleeves, this pre-shrunk Hoodie is as functional and warm as it is effortlessly cool. Unisex sizing to fit both men and women. Online Shopping Designed/Customized/Printed Hoddies Full Sleeves Fleece Fabric.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /tab1  -->
+
+              <!-- tab2  -->
+              <div class="tab-content tabcontent container" id="detail">
+                <div class="">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /tab2  -->
+
+              <!-- tab3  -->
+              <div class="tab-content tabcontent container" id="review">
+                <div class="">
+                  <div class="row">
+                    <!-- Rating -->
+                    <div class="col-md-3">
+                      <div id="rating">
+                        <div class="rating-avg">
+                          <span>4.5</span>
+                          <div class="rating-stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                        </div>
+                        <ul class="rating">
+                          <li>
+                            <div class="rating-stars">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                            <div class="rating-progress">
+                              <div style="width: 80%;"></div>
+                            </div>
+                            <span class="sum">3</span>
+                          </li>
+                          <li>
+                            <div class="rating-stars">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                            </div>
+                            <div class="rating-progress">
+                              <div style="width: 60%;"></div>
+                            </div>
+                            <span class="sum">2</span>
+                          </li>
+                          <li>
+                            <div class="rating-stars">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-o"></i>
+                            </div>
+                            <div class="rating-progress">
+                              <div></div>
+                            </div>
+                            <span class="sum">0</span>
+                          </li>
+                          <li>
+                            <div class="rating-stars">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-o"></i>
+                            </div>
+                            <div class="rating-progress">
+                              <div></div>
+                            </div>
+                            <span class="sum">0</span>
+                          </li>
+                          <li>
+                            <div class="rating-stars">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-o"></i>
+                            </div>
+                            <div class="rating-progress">
+                              <div></div>
+                            </div>
+                            <span class="sum">0</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- /Rating -->
+
+                    <!-- Reviews -->
+                    <div class="col-md-6">
+                      <div id="reviews">
+                        <ul class="reviews">
+                          <li>
+                            <div class="review-heading">
+                              <h5 class="name">John</h5>
+                              <p class="date">27 DEC 2018, 8:0 PM</p>
+                              <div class="review-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o empty"></i>
+                              </div>
+                            </div>
+                            <div class="review-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="review-heading">
+                              <h5 class="name">John</h5>
+                              <p class="date">27 DEC 2018, 8:0 PM</p>
+                              <div class="review-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o empty"></i>
+                              </div>
+                            </div>
+                            <div class="review-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="review-heading">
+                              <h5 class="name">John</h5>
+                              <p class="date">27 DEC 2018, 8:0 PM</p>
+                              <div class="review-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o empty"></i>
+                              </div>
+                            </div>
+                            <div class="review-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                          </li>
+                        </ul>
+                        <ul class="reviews-pagination">
+                          <li class="active">1</li>
+                          <li><a href="#">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- /Reviews -->
+
+                    <!-- Review Form -->
+                    <div class="col-md-3">
+                      <div id="review-form">
+                        <form class="review-form">
+                          <input class="input" type="text" placeholder="Your Name">
+                          <input class="input" type="email" placeholder="Your Email">
+                          <textarea class="input" placeholder="Your Review"></textarea>
+                          <div class="input-rating">
+                            <span>Your Rating: </span>
+                            <div class="stars">
+                              <input id="star5" name="rating" value="5" type="radio"><label for="star5"></label>
+                              <input id="star4" name="rating" value="4" type="radio"><label for="star4"></label>
+                              <input id="star3" name="rating" value="3" type="radio"><label for="star3"></label>
+                              <input id="star2" name="rating" value="2" type="radio"><label for="star2"></label>
+                              <input id="star1" name="rating" value="1" type="radio"><label for="star1"></label>
+                            </div>
+                          </div>
+                          <button class="primary-btn">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                    <!-- /Review Form -->
+                  </div>
+                </div>
+
+                <!-- /tab3  -->
+              </div>
+              <!-- /product tab content  -->
+            </div>
+          </div>
+          <!-- /product tab -->
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- CONTENT END -->
+
+
+  </section>
+
+  <footer>
+    <div class="container-fluid mt-5">
+      <div class="row h-100 justify-content-center align-items-center footer " style="margin: 15px auto">
+        <div class="col-lg-5 mt-2 mb-2">
+          <div class="d-block float-left mb-3 ml-5">
+            <img height="50px" src="img/logo.png" alt="logo">
+
+          </div>
+          <div class="float-right mb-3">
+            <a style="font-size: 18px; color: #aaa; font-family: lato-black;">Got Question? Call us 24/7</a><br>
+            <a class="font-weight-bold" style="font-size: 20px;">[80] 1017 197</a>
+          </div>
+          <div class="text-center float-left ml-5">
+            <p style="font-size: 10px; font-weight: bold; color: #666;">Our product range comes under the categories of
+              LACINIA, HERBATECH, SALKOM, and TANURA. We are proud to offer
+              the best to our customers in line with their demands and requests and on the basis of our researches and
+              product reviews.</p>
+          </div>
+          <div class="float-left mt-3 ml-5">
+            <img height="18px" src="img/fb.png" alt="fb">
+            <img height="18px" src="img/twitter.png" alt="twitter">
+            <img height="18px" src="img/pintrest.png" alt="pintrest">
+            <img height="18px" src="img/linkedin.png" alt="linkedin">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="ml-4 mt-2 payments">
+            <a class="mb-2" style="font-size: 18px; color: #aaa; font-family: lato-black;">We Using</a><br>
+            <a class="font-weight-bold" style="font-size: 20px;">Save Payments</a><br>
+            <pre><a class="font-weight-bold" style="font-size: 15px; color: #aaa;">Skrill  Paypal  American Express</a></pre>
+            <a style="font-size: 18px; font-family: lato-black;">Secured By:</a><br>
+            <img class="mr-3" height="70px" src="img/norton.png" alt="norton">
+            <img height="120px" src="img/mcafee.png" alt="mcafee">
+          </div>
+        </div>
+        <div class="col-lg-2 mt-2 mb-2">
+          <div class="d-block ourStores">
+            <h5 class="font-weight-bold">Our Stores</h5>
+            <ul style="padding-left: 0;">
+              <li>New York</li>
+              <li>London SF</li>
+              <li>Cockfosters BP</li>
+              <li>Los Angeles</li>
+              <li>Chicago</li>
+              <li>Las Vegas</li>
+              <li>Albarto</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-lg-2 mt-2 mb-2">
+          <div class="d-block quickLink">
+            <h5 class="font-weight-bold">Quick Links</h5>
+            <ul style="padding-left: 0;">
+              <li>Support center</li>
+              <li>Terms and Condition</li>
+              <li>Shipping</li>
+              <li>Privacy Policy</li>
+              <li>Help</li>
+              <li>Products Return</li>
+              <li>FAQs</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script>
+	function opentab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+	 
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+	
+	</script>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.zoom.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/my.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1075 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+@font-face {
+font-family: lato;
+src: url(../Fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+font-family: lato-bold;
+src: url(../Fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+font-family: lato-italic;
+src: url(../Fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+font-family: lato-black;
+src: url(../Fonts/Lato-Black.ttf);
+}
+
+
+
+.ftco-section3{
+	width: 100%;
+  padding: 1em 0;
+  position: relative;
+}
+
+
+.ftco-banner{
+    padding:2em;
+}
+
+
+.banner{
+	width: 100%;
+    
+}
+.small{
+    font-size:23px;
+    padding-left: 10px;
+    padding-top: 30px;
+
+}
+.footr-logo{
+    background-color: #343e48;
+}
+.wiewbuton{
+    position: relative;
+    top: -20px;
+}
+
+body {
+    font-family: lato;
+}
+
+/*Hasan Ahmad*/
+.togglebutton{
+    display: none;
+}
+
+.upperNav{
+    background-color: #e2e2e2;
+    font-family: lato;
+    width: 100%;
+}
+
+.upperNav-brand {
+    margin-left: 18%;
+    margin-right: 22%;
+    color: #333;
+}
+
+.header {
+    display: inline-flex;
+    background-color: #ffffff;
+    margin: 12px;
+}
+
+.searchInput{
+    background-color: #eeeeee;
+    border: 0px solid;
+    font-family: lato;
+    font-size: 16px;
+    color: #717171;
+}
+
+.searchBtn{
+    background-color: #d311b4;
+    border: 0 solid;
+    background-image: url(../img/search.png);
+    padding: 20px;
+    width: 25%;
+    background-position: 7px;
+    background-repeat: no-repeat;
+}
+
+.mainNav {
+    width: 100%;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    background-color: #d311b4;
+}
+
+.mainNav-item{
+    font-family: lato;
+    font-size: 16px;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    text-align: center;
+    margin: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators li {
+    background-clip: unset;
+    border-radius: 100%;
+    width: 16px !important;
+    height: 0px !important;
+}
+
+.upperNav a {
+    color: #333 !important;
+}
+
+/* Asad */
+.r-seprator {
+    border-right: 2px solid;
+    margin-right: -30px;
+    padding-right: 25px;
+    padding-left: 50px;
+}
+
+.up-font {
+    font-size: 24px;
+    font-family: lato-italic;
+}
+
+.down-font {
+    font-size: 60px;
+    font-family: lato-black;
+    margin-top: -40px;
+}
+
+.btn-round {
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 25px;
+    font-family: lato;
+}
+
+
+/*   Mobeen CSS */
+
+/*Cards CSS Begin */
+
+.cardImg{
+
+    margin: 20px;
+    height: 250px;
+    width: auto;
+}
+
+.myCard{
+   
+    background-color: #f4f4f4;
+    border: none;
+    margin-bottom: 20px;
+   
+    
+}
+
+.myCardTitle{
+
+    text-align: center;
+}
+
+.myCardText{
+
+    text-align: center;
+}
+
+.myCardBody{
+
+    text-align: center;
+
+}
+
+.myCardIcon{
+
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.outerClassForMargin{
+
+    margin: 37px 60px;
+}
+
+/*Hasan Ahmad*/
+.gift-card{
+    background-color: #e384c6;
+}
+.coupon-card{
+    background-color: #feb066;
+}
+.delivery-card{
+    background-color: #f7907d;
+}
+.gift-btn{
+    color: #e384c6;
+}
+.coupon-btn{
+    color: #feb066;
+}
+.delivery-btn{
+    color: #f7907d;
+}
+.containerr p{
+    font-family: lato;
+}
+.containerr h4{
+    font-family: lato-black;
+}
+.containerr img{
+    margin-top: -68px;
+}
+
+/*Cards CSS End */
+
+/*View More Button CSS Begin*/
+.viewMoreButton{
+
+    border-radius: 40px;
+    
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0px auto;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    font-family:lato;
+
+
+}
+
+/*View More Button CSS End*/
+
+.quickLink li{
+    list-style: none;
+    padding-top: 10px;
+    color: #aaa;
+    font-weight: bold;
+}
+
+.ourStores li{
+    list-style: none;
+    padding-top: 10px;
+    color: #aaa;
+    font-weight: bold;
+}
+
+.topSellingLeft{
+
+    background-image: url("../img/top Selling/topSellingLeft.png");
+    background-size: cover;
+    background-color: #c738ac;
+    border: 5px solid #c738ac;
+}
+
+
+.topSellingList li{
+
+    list-style: none;
+    padding: 5px;
+    font-family: lato-italic;
+    font-size: 18px;
+    color: white;
+}
+
+.topSellingList h3{
+
+    text-align: center;
+    font-family: lato-black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.outerClassForMarginForSelling{
+
+    margin: 37px 60px;
+
+}
+
+.toSellingRow{
+
+    border: 1px solid black;
+}
+
+/*Hasan Ahmad*/
+.brand-field{
+    background-color: #343e48;
+}
+
+.brandLogo{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 85px;
+    width: 10%;
+
+}
+
+/*Hasan Ahmad*/
+.call-question{
+    font-size: 18px; 
+    color: #aaa; 
+    font-family: lato-black;
+}
+
+.headings{
+
+    display: flex;
+
+}
+
+.headings ul{
+
+    list-style: none;
+    
+   
+}
+
+.headings ul li{
+
+    float: left;
+   
+ 
+}
+
+.an {
+    margin-left: 10px;
+}
+
+.sb {
+    margin-left: 10px;
+}
+
+.op {
+    margin-left: 25px;
+}
+
+.ru {
+    margin-right: 70px;
+}
+
+.rul {
+    margin-left: 55px;
+}
+
+.pt {
+    margin-left: 55px;
+}
+
+/*Media Queries  */
+
+@media only screen and (max-width: 1161px)  {
+
+    .mainNav-item{
+
+        font-size: 12px;
+    }
+    .logoHeader{
+
+        width: 80px;
+    }
+    .downloadHeader{
+
+        width: 150px;
+
+    }
+}
+
+@media only screen and (max-width: 992px)  {
+
+    .logoHeader{
+
+        width: 40px;
+    }
+    .downloadHeader{
+
+        width: 100px;
+        
+    }
+
+    
+}
+
+/* For products cards */
+@media only screen and (max-width: 580px)  {
+
+    .outerClassForMargin {
+        margin: 30px 95px !important;
+        width: 300px;
+    }
+
+} 
+
+/* For up Down Fonts */
+@media only screen and (max-width: 800px)  {
+
+    .up-font {
+        font-size: 22px;
+        font-family: lato-italic;
+    }
+    
+    .down-font {
+        font-size: 50px;
+        font-family: lato-black;
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (max-width: 740px)  {
+    
+    .down-font {
+        font-size: 45px;
+        font-family: lato-black;
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (max-width: 650px)  {
+
+    .up-font {
+        font-size: 18px;
+        font-family: lato-italic;
+    }
+    
+    .down-font {
+        font-size: 35px;
+        font-family: lato-black;
+        margin-top: -25px;
+    }
+
+    .pt {
+        margin-left: 48px;
+    }
+}
+
+@media all and (max-width: 580px) and (min-width: 200px) {
+
+    .an {
+        margin-left: 7px;
+    }
+    
+    .sb {
+        margin-left: 2px;
+    }
+    
+    .op {
+        margin-left: 2px;
+    }
+    
+    .ru {
+        margin-right: 50px;
+    }
+
+    .rul {
+        margin-left: 50px;
+    }
+
+    .pt {
+        margin-left: 45px;
+    }
+
+    .r-seprator {
+        margin-right: -45px;
+        padding-right: 15px;
+        padding-left: 50px;
+    }
+
+    .ml {
+        margin-left: 28px;
+    }
+
+    .up-font {
+        font-size: 15px;
+        font-family: lato-italic;
+    }
+    
+    .down-font {
+        font-size: 25px;
+        font-family: lato-black;
+        margin-top: -16px;
+    }
+}
+
+/* Brands Logos */
+@media only screen and (max-width: 1200px)  {
+    .brandLogo {
+        margin-left: 10px;
+        margin-right: 73px;
+        width: 96px;
+    }
+}
+
+@media only screen and (max-width: 960px)  {
+    .brandLogo {
+        margin-left: 14px;
+        margin-right: 46px;
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width: 815px)  {
+    .brandLogo {
+        margin-left: 14px;
+        margin-right: 25px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 660px)  {
+    .brandLogo {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 565px)  {
+    .brandLogo {
+        margin-left: 10px;
+        margin-right: 15px;
+        width: 60px;
+    }
+}
+
+@media all and (max-width: 500px) and (min-width: 200px) {
+    .brandLogo {
+        margin-left: 3px;
+        margin-right: 0px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 990px)  {
+    .ourStores {
+        text-align: center;
+    }
+
+    .quickLink {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .payments {
+        text-align: center;
+    }
+}
+/* Signup code my Mairaj */
+.main-w3layouts {
+  padding: 1em 0 1em;
+background: url(../flower.png);
+}
+
+.main-agileinfo {
+  width: 35%;
+  margin: 3em auto;
+ background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgba(255, 255, 255, 1) 40%, rgba(255, 224, 250, 1) 60%, rgba(255, 255, 255, 1) 80%);
+box-shadow: 5px 5px 5px 5px rgba(2, 2, 2, 0.57);
+  opacity: 0.8;
+border: 8px solid transparent;
+  border-radius: 25px;
+
+}
+
+.agileits-top {
+  padding: 2em;
+    padding-top: .5em;
+   padding-bottom: .5em;
+background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgba(255, 255, 255, 1) 40%, rgba(255, 224, 250, 1) 60%, rgba(255, 255, 255, 1) 80%);
+
+}
+
+.agileits-top p {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.agileits-top .lg-heading {
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+.agileits-top p a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    font-weight: 500;
+}
+
+.agileits-top p a:hover {
+  color: #f714da;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  font-size: 0.9em;
+  color: black !important;
+  font-weight: 100;
+  width: 94.5%;
+  display: block;
+  border: none;
+  padding: 0.8em;
+  border: solid 1px rgba(11, 11, 11, 0.37);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background-position: -800px 0;
+  background-size: 100%;
+border-radius:5px;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+input.email, input.text.w3lpass {
+  margin: 0em 0;
+}
+
+.text:focus, .text:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+.text:focus::-webkit-input-placeholder, .text:valid::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .9em;
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -o-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+  visibility: visible !important;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  font-weight: 100;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+input[type="submit"] {
+  font-size: .9em;
+  color: #fff;
+  background: #bc46ac;
+  outline: none;
+  border: 1px solid #f714da;
+border-radius:5px 5px;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 35%;
+  margin: 2em 0;
+  letter-spacing: 4px;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+  background: #f714da;
+}
+
+
+/*-- //main --*/
+/*-- checkbox --*/
+.wthree-text label {
+  font-size: 0.9em;
+  color: black;
+  font-weight: 200;
+  cursor: pointer;
+  position: relative;
+}
+
+input.checkbox {
+  background: white;
+  cursor: pointer;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+input.checkbox:before {
+
+  position: absolute;
+  width: 1.2em;
+  height: 1.2em;
+	
+  cursor: pointer;
+}
+
+input.checkbox:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 1;
+  width: 1.2em;
+  height: 1.2em;
+  border: 1px solid #fff;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+input.checkbox:checked:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.anim input.checkbox:checked:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: transparent;
+  border-right-color: transparent;
+  animation: .4s rippling .4s ease;
+  animation-fill-mode: forwards;
+}
+.lg-frgt a {
+  cursor: pointer;
+text-decoration:none;
+  color: #d311b4;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/*-- responsive-design --*/
+@media(max-width:1440px) {
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 94%;
+  }
+}
+
+@media(max-width:1366px) {
+  h1 {
+    font-size: 2.6em;
+  }
+
+  .agileits-top {
+    padding: 2.5em;
+    padding-top: .5em;
+padding-bottom:.5em;
+background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgba(255, 255, 255, 1) 40%, rgba(255, 224, 250, 1) 60%, rgba(255, 255, 255, 1) 80%);
+  }
+
+  .main-agileinfo {
+    margin: 2em auto;
+  }
+
+  .main-agileinfo {
+    width: 36%;
+  }
+}
+
+@media(max-width:1280px) {
+  .main-agileinfo {
+    width: 40%;
+  }
+}
+
+@media(max-width:1080px) {
+  .main-agileinfo {
+    width: 46%;
+  }
+}
+
+@media(max-width:1024px) {
+  .main-agileinfo {
+    width: 49%;
+  }
+}
+
+@media(max-width:991px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  .main-w3layouts {
+    padding: .5em 0 .3em;
+background: url(../background.png) !important;
+  }
+}
+
+@media(max-width:900px) {
+  .main-agileinfo {
+    width: 58%;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 93%;
+  }
+}
+
+@media(max-width:800px) {
+  h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media(max-width:736px) {
+  .main-agileinfo {
+    width: 62%;
+  }
+}
+
+@media(max-width:667px) {
+  .main-agileinfo {
+    width: 67%;
+  }
+}
+
+@media(max-width:600px) {
+  .agileits-top {
+    padding: 2.2em;
+padding-bottom:.3em;
+background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgba(255, 255, 255, 1) 40%, rgba(255, 224, 250, 1) 60%, rgba(255, 255, 255, 1) 80%);
+
+  }
+
+  input.email, input.text.w3lpass {
+    margin: 0.5em 0;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+  }
+}
+
+@media(max-width:568px) {
+  .main-agileinfo {
+    width: 75%;
+  }
+
+  .colorlibcopy-agile p {
+    padding: 0 2em;
+  }
+}
+
+@media(max-width:480px) {
+  h1 {
+    font-size: 1.8em;
+    letter-spacing: 3px;
+  }
+
+  .agileits-top {
+    padding: 1.8em;
+padding-bottom:.2em;
+background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgba(255, 255, 255, 1) 40%, rgba(255, 224, 250, 1) 60%, rgba(255, 255, 255, 1) 80%);
+
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 91%;
+  }
+
+  .agileits-top p {
+    font-size: 0.9em;
+  }
+}
+
+@media(max-width:414px) {
+  h1 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+  }
+
+  .main-agileinfo {
+    width: 85%;
+    margin: 1.5em auto;
+  }
+
+  .text:focus, .text:valid {
+    background-position: 0 0px;
+  }
+
+  .wthree-text ul li, .wthree-text ul li:nth-child(2) {
+    display: block;
+    float: none;
+  }
+
+  .wthree-text ul li:nth-child(2) {
+    margin-top: 1.5em;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0 1.5em;
+    letter-spacing: 3px;
+  }
+
+  input[type="submit"] {
+    margin: 2em 0 1.5em;
+  }
+
+  .colorlibcopy-agile {
+    margin: 1em 0 1em;
+  }
+}
+
+@media(max-width:384px) {
+  .main-agileinfo {
+    width: 88%;
+  }
+
+  .colorlibcopy-agile p {
+    padding: 0 1em;
+  }
+}
+
+@media(max-width:375px) {
+  .agileits-top p {
+    letter-spacing: 0px;
+  }
+}
+
+@media(max-width:320px) {
+  .main-w3layouts {
+    padding: 1.5em 0 0;
+  }
+
+  .agileits-top {
+    padding: 1.2em;
+padding-bottom:0em;
+  }
+
+  .colorlibcopy-agile {
+    margin: 0 0 1em;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 89.5%;
+    font-size: 0.85em;
+  }
+
+  h1 {
+    font-size: 1.7em;
+    letter-spacing: 0px;
+  }
+
+  .main-agileinfo {
+    width: 92%;
+    margin: 1em auto;
+  }
+
+  .text:focus, .text:valid {
+    background-position: 0 0px;
+  }
+
+  input[type="submit"] {
+    margin: 1.5em 0;
+    padding: 0.8em;
+    font-size: .85em;
+  }
+
+  .colorlibcopy-agile p {
+    font-size: .85em;
+  }
+
+  .wthree-text label {
+    font-size: 0.85em;
+  }
+
+  .main-w3layouts {
+    padding: 1em 0 0;
+  }
+}
+/*Shopping Cart Mairaj */
+.ftco-section3 {
+    width: 100%;
+    padding: 1em 0;
+    position: relative;
+}
+.border-bottom {
+      border-bottom: 2px solid black !important;
+}
+.summarycard{
+	
+	background: rgb(255, 255, 255);
+    background: linear-gradient(to top left, rgba(255, 255, 255, 1) 40%, rgba(255, 224, 250, 1) 60%, rgba(255, 255, 255, 1) 80%);
+    opacity: 0.8;
+    border: transparent;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(2, 2, 2, 0.57);
+    border-radius: 25px;
+    color: black;
+}
+.qty{
+	width: 80%;
+}
+.item{
+	margin-top: 35px !important;
+	text-align: center;
+}
+.checkout {
+    color: white;
+    background-color: #d71fb9;
+}
+.borderless{
+	border: 1px solid transparent !important;
+}

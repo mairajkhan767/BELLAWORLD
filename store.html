@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>BELLA WORLD</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <header>
+
+       <nav class="navbar navbar-expand-lg navbar-light upperNav">
+      <button class="navbar-toggle togglebutton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav w-100">
+          <div class="col-lg-7">
+            <a class="nav-item nav-link text-center" href="#">Call us 24/7: (+00) 123-456-789</a>
+          </div>
+          <a class="nav-item nav-link text-center" href="contact.html">Contact Us</a>
+          <a class="nav-item nav-link text-center" href="#">My Wishlist</a>
+          <a class="nav-item nav-link text-center" href="myCart.html">My Cart</a>
+          <a class="nav-item nav-link text-center" href="signup.html">Signup</a>
+          <a class="nav-item nav-link text-center" href="loginpage.html">Log In</a>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3  mb-2" style="margin-top:-10px;">
+          <div class="d-block text-center">
+            <img src="img/logo.png" alt="logo" class="logoHeader">
+          </div>
+        </div>
+        <div class="col-lg-3 mt-2 mb-2">
+          <div class="input-group d-block text-center">
+            <div class="d-inline-flex">
+              <input type="text" class="searchInput form-control form-control-lg" placeholder="Search your product...">
+              <button type="button" class="searchBtn"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 mt-2 mb-2">
+          <div class="d-block text-center">
+            <img src="img/cartItem.png" alt="cart">
+            <a class="font-weight-bold ml-2">0 Item</a>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-2 mb-2">
+          <div class="d-block text-center">
+            <img src="img/downloadApp.png" alt="app" class="downloadHeader">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mainNav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="MainNavbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-item mainNav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">SKIN AND BODY</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">HAIR</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">FUNCTIONAL COSMETICS</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">FOOD</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">COLOR COSMETICS</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">AMPOULES</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">SOAP</a>
+          <a class="nav-item mainNav-item nav-link" href="store.html">ORAL</a>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <section>
+
+
+<!--Filter Setion Start-->
+<button type="button" class="btn filterBtn" style="font-weight: 700;font-size: 18px;color: white;background-color: #d311b4; ">Filter</button>
+<img src="https://img.icons8.com/wired/64/000000/filter.png" class="filterBtn" style=" color: #d311b4;">
+
+<div class="container filterContainer">
+
+    
+    <div class="row ">
+        <aside class="col-sm-4">
+    <p>Filter 1</p>
+    
+    
+    <div class="card">
+        <article class="card-group-item">
+            <header class="card-header">
+                <h6 class="title">Brands </h6>
+            </header>
+            <div class="filter-content">
+                <div class="card-body">
+                <form>
+                    <label class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <span class="form-check-label">
+                        Mersedes Benz
+                      </span>
+                    </label> <!-- form-check.// -->
+                    <label class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <span class="form-check-label">
+                        Nissan Altima
+                      </span>
+                    </label>  <!-- form-check.// -->
+                    <label class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <span class="form-check-label">
+                        Another Brand
+                      </span>
+                    </label>  <!-- form-check.// -->
+                </form>
+    
+                </div> <!-- card-body.// -->
+            </div>
+        </article> <!-- card-group-item.// -->
+        
+        <article class="card-group-item">
+            <header class="card-header">
+                <h6 class="title">Choose type </h6>
+            </header>
+            <div class="filter-content">
+                <div class="card-body">
+                <label class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadio" value="">
+                  <span class="form-check-label">
+                    First hand items
+                  </span>
+                </label>
+                <label class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadio" value="">
+                  <span class="form-check-label">
+                    Brand new items
+                  </span>
+                </label>
+                <label class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadio" value="">
+                  <span class="form-check-label">
+                    Some other option
+                  </span>
+                </label>
+                </div> <!-- card-body.// -->
+            </div>
+        </article> <!-- card-group-item.// -->
+    </div> <!-- card.// -->
+    
+    
+    
+    
+        </aside> <!-- col.// -->
+        <aside class="col-sm-4">
+    <p>Filter 2</p>
+    
+    
+    <div class="card">
+        <article class="card-group-item">
+            <header class="card-header"><h6 class="title">Similar category </h6></header>
+            <div class="filter-content">
+                <div class="list-group list-group-flush">
+                  <a href="#" class="list-group-item">Cras justo odio <span class="float-right badge badge-light round">142</span> </a>
+                  <a href="#" class="list-group-item">Dapibus ac facilisis  <span class="float-right badge badge-light round">3</span>  </a>
+                  <a href="#" class="list-group-item">Morbi leo risus <span class="float-right badge badge-light round">32</span>  </a>
+                  <a href="#" class="list-group-item">Another item <span class="float-right badge badge-light round">12</span>  </a>
+                </div>  <!-- list-group .// -->
+            </div>
+        </article> <!-- card-group-item.// -->
+        <article class="card-group-item">
+            <header class="card-header"><h6 class="title">Color check</h6></header>
+            <div class="filter-content">
+                <div class="card-body">
+                    <label class="btn btn-danger">
+                      <input class="" type="checkbox" name="myradio" value="">
+                      <span class="form-check-label">Red</span>
+                    </label>
+                    <label class="btn btn-success">
+                      <input class="" type="checkbox" name="myradio" value="">
+                      <span class="form-check-label">Green</span>
+                    </label>
+                    <label class="btn btn-primary">
+                      <input class="" type="checkbox" name="myradio" value="">
+                      <span class="form-check-label">Blue</span>
+                    </label>
+                </div> <!-- card-body.// -->
+            </div>
+        </article> <!-- card-group-item.// -->
+    </div> <!-- card.// -->
+    
+    
+    
+        </aside> <!-- col.// -->
+        <aside class="col-sm-4">
+    <p>Filter  3</p>
+    
+    
+    
+    <div class="card">
+        <article class="card-group-item">
+            <header class="card-header">
+                <h6 class="title">Range input </h6>
+            </header>
+            <div class="filter-content">
+                <div class="card-body">
+                <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label>Min</label>
+                  <input type="number" class="form-control" id="inputEmail4" placeholder="$0">
+                </div>
+                <div class="form-group col-md-6 text-right">
+                  <label>Max</label>
+                  <input type="number" class="form-control" placeholder="$1,0000">
+                </div>
+                </div>
+                </div> <!-- card-body.// -->
+            </div>
+        </article> <!-- card-group-item.// -->
+        <article class="card-group-item">
+            <header class="card-header">
+                <h6 class="title">Selection </h6>
+            </header>
+            <div class="filter-content">
+                <div class="card-body">
+                    <div class="custom-control custom-checkbox">
+                        <span class="float-right badge badge-light round">52</span>
+                          <input type="checkbox" class="custom-control-input" id="Check1">
+                          <label class="custom-control-label" for="Check1">Samsung</label>
+                    </div> <!-- form-check.// -->
+    
+                    <div class="custom-control custom-checkbox">
+                        <span class="float-right badge badge-light round">132</span>
+                          <input type="checkbox" class="custom-control-input" id="Check2">
+                         <label class="custom-control-label" for="Check2">Black berry</label>
+                    </div> <!-- form-check.// -->
+    
+                    <div class="custom-control custom-checkbox">
+                        <span class="float-right badge badge-light round">17</span>
+                          <input type="checkbox" class="custom-control-input" id="Check3">
+                          <label class="custom-control-label" for="Check3">Samsung</label>
+                    </div> <!-- form-check.// -->
+    
+                    <div class="custom-control custom-checkbox">
+                        <span class="float-right badge badge-light round">7</span>
+                          <input type="checkbox" class="custom-control-input" id="Check4">
+                          <label class="custom-control-label" for="Check4">Other Brand</label>
+                    </div> <!-- form-check.// -->
+                </div> <!-- card-body.// -->
+            </div>
+        </article> <!-- card-group-item.// -->
+    </div> <!-- card.// -->
+    
+    
+    
+        </aside> <!-- col.// -->
+    </div> <!-- row.// -->
+    
+    </div> 
+
+
+    <script>
+        $( ".filterBtn" ).click(function() {
+          $(".filterContainer" ).toggle("slow");
+        });
+        </script>
+
+
+
+<!--End Filter Setion -->
+
+
+
+<!--Product Store Start Row 1 and 4 product-->
+
+
+    <div class="outerClassForMargin">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="card myCard">
+                <img src="img/New Arrival/theFaceShop.png" class="cardImg" alt="">
+  
+                <div class="card-body myCardBody">
+                  <h5 class="card-title myCardTitle">The Face Shop</h5>
+                  <p class="card-text myCardText">Scrub</p>
+                  <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="card myCard">
+                <img src="img/New Arrival/theFaceShop2.png" class="cardImg" alt="">
+  
+                <div class="card-body myCardBody">
+                  <h5 class="card-title myCardTitle">The Face Shop</h5>
+                  <p class="card-text myCardText">Scrub</p>
+                  <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="card myCard">
+                <img src="img/New Arrival/theFaceShop3.png" class="cardImg" alt="">
+  
+                <div class="card-body myCardBody">
+                  <h5 class="card-title myCardTitle">The Face Shop</h5>
+                  <p class="card-text myCardText">Scrub</p>
+                  <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="card myCard">
+                <img src="img/New Arrival/theFaceShop4.png" class="cardImg" alt="">
+  
+                <div class="card-body myCardBody">
+                  <h5 class="card-title myCardTitle">The Face Shop</h5>
+                  <p class="card-text myCardText">Scrub</p>
+                  <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+                  <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+        </div>
+  
+  
+      </div>
+  
+<!--End Product Store Start Row 1 and 4 product-->
+
+<!--Product Store Start Row 2 and 4 product-->
+
+
+<div class="outerClassForMargin">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop2.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop3.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop4.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+<!--End Product Store Start Row 2 and 4 product-->
+
+
+<!--Product Store Start Row 3 and 4 product-->
+
+
+<div class="outerClassForMargin">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop2.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop3.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card myCard">
+            <img src="img/New Arrival/theFaceShop4.png" class="cardImg" alt="">
+
+            <div class="card-body myCardBody">
+              <h5 class="card-title myCardTitle">The Face Shop</h5>
+              <p class="card-text myCardText">Scrub</p>
+              <img src="img/New Arrival/report.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/like.png" class="myCardIcon" alt="">
+              <img src="img/New Arrival/supermarket.png" class="myCardIcon" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+<!--End Product Store Start Row 3 and 4 product-->
+
+
+
+
+    
+<!--Pagination -->
+
+<div class="container">
+
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">4</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+      </ul>
+      
+
+</div>
+
+<!-- End Pagination -->
+  </section>
+
+  <footer>
+    <div class="container-fluid mt-5">
+      <div class="row h-100 justify-content-center align-items-center footer " style="margin: 15px auto">
+        <div class="col-lg-5 mt-2 mb-2">
+          <div class="d-block float-left mb-3 ml-5">
+            <img height="50px" src="img/logo.png" alt="logo">
+          </div>
+          <div class="float-right mb-3">
+            <a style="font-size: 18px; color: #aaa; font-family: lato-black;">Got Question? Call us 24/7</a><br>
+            <a class="font-weight-bold" style="font-size: 20px;">[80] 1017 197</a>
+          </div>
+          <div class="text-center float-left ml-5">
+            <p style="font-size: 10px; font-weight: bold; color: #666;">Our product range comes under the categories of
+              LACINIA, HERBATECH, SALKOM, and TANURA. We are proud to offer
+              the best to our customers in line with their demands and requests and on the basis of our researches and
+              product reviews.</p>
+          </div>
+          <div class="float-left mt-3 ml-5">
+            <img height="18px" src="img/fb.png" alt="fb">
+            <img height="18px" src="img/twitter.png" alt="twitter">
+            <img height="18px" src="img/pintrest.png" alt="pintrest">
+            <img height="18px" src="img/linkedin.png" alt="linkedin">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="ml-4 mt-2 payments">
+            <a class="mb-2" style="font-size: 18px; color: #aaa; font-family: lato-black;">We Using</a><br>
+            <a class="font-weight-bold" style="font-size: 20px;">Save Payments</a><br>
+            <pre><a class="font-weight-bold" style="font-size: 15px; color: #aaa;">Skrill  Paypal  American Express</a></pre>
+            <a style="font-size: 18px; font-family: lato-black;">Secured By:</a><br>
+            <img class="mr-3" height="70px" src="img/norton.png" alt="norton">
+            <img height="120px" src="img/mcafee.png" alt="mcafee">
+          </div>
+        </div>
+        <div class="col-lg-2 mt-2 mb-2">
+          <div class="d-block ourStores">
+            <h5 class="font-weight-bold">Our Stores</h5>
+            <ul style="padding-left: 0;">
+              <li>New York</li>
+              <li>London SF</li>
+              <li>Cockfosters BP</li>
+              <li>Los Angeles</li>
+              <li>Chicago</li>
+              <li>Las Vegas</li>
+              <li>Albarto</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-lg-2 mt-2 mb-2">
+          <div class="d-block quickLink">
+            <h5 class="font-weight-bold">Quick Links</h5>
+            <ul style="padding-left: 0;">
+              <li>Support center</li>
+              <li>Terms and Condition</li>
+              <li>Shipping</li>
+              <li>Privacy Policy</li>
+              <li>Help</li>
+              <li>Products Return</li>
+              <li>FAQs</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
